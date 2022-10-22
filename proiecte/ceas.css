@@ -1,0 +1,66 @@
+body
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background: url("https://images.unsplash.com/photo-1461301214746-1e109215d6d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+ background-size: cover;
+ overflow: hidden;
+}
+h2{
+font-weight: bolder;
+text-transform: uppercase;
+letter-spacing: 10px;
+font-size: 60px;
+text-align: center;
+color: red;
+opacity: .8;
+transition: text-shadow 2s;
+cursor: pointer;
+
+}
+h2:hover{
+    text-shadow: 20px 60px 7px; 
+}
+.ceas
+{
+    display: flex;
+}
+.ceas div{
+    margin: 5px;
+    position: relative;
+}
+.ceas span{
+    width: 100px;
+    height: 80px;
+    opacity: 1;
+    color: rgb(189, 32, 105);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-shadow: 0px 5px 3px rgba(0, 0, 0, 0.3) ;
+}
+.ceas .text{
+height: 30px;
+font-size: 15px;
+text-transform: uppercase;
+letter-spacing: 2px;
+opacity: 0.9;
+color: rgb(0, 255, 191);
+}
+.text{
+    margin-left: 20px;
+}
+.ceas #ampm
+{
+position: absolute;
+bottom: 0;
+width: 60px;
+height: 30px;
+
+}
